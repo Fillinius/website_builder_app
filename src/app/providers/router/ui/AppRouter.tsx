@@ -3,7 +3,7 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import { AppRoutes } from "@/shared/ui/const/router";
-import { MainPage } from "@/pages/MainPage/ForbiddenPage";
+import { MainPage } from "@/pages/MainPage";
 import { LoginPage } from "@/pages/LoginPage";
 
 const router = createBrowserRouter([
@@ -14,7 +14,6 @@ const router = createBrowserRouter([
   {
     path:AppRoutes.LOGIN,
     element: <LoginPage/>
-
   },
 ]);
 

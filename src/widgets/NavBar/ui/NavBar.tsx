@@ -15,7 +15,7 @@ import {
   MenuItems,
 } from '@headlessui/react'
 
-function classNames(...classes) {
+function classNames(...classes: (string | boolean)[]): string {
   return classes.filter(Boolean).join(' ')
 }
 
